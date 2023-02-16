@@ -23,10 +23,10 @@ public class UserInfoClient {
 		//dao.updateUserInfo(userInfo);
 		
 		
-//		dao.insertUserInfo(userInfo); // 저장하는 기능
-//		dao.updateUserInfo(userInfo); // 수정하는 기능
-//		dao.deleteUserInfo(userInfo.getUserName()); // 삭제 기능
-//		dao.selecteUserInfo(userInfo.getUserName()); // 조회 기능
+		dao.insertUserInfo(userInfo); // 저장하는 기능
+		dao.updateUserInfo(userInfo); // 수정하는 기능
+		dao.deleteUserInfo(userInfo.getUserName()); // 삭제 기능
+		dao.selecteUserInfo(userInfo.getUserName()); // 조회 기능
 	}
 	
 }
